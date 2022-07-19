@@ -1,0 +1,12 @@
+{
+  "name": "OrderMarker",
+  "manifest_version": 3,
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://atcoder.jp/contests/*"],
+      "js": ["main.js"]
+    }
+  ],
+  "action": {}
+}
